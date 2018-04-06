@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/harpia/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/harpia/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/harpia/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/harpia/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -39,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/harpia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/harpia/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/harpia/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/harpia/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s.so:system/vendor/lib/libactuator_f8v03t_dw9718s.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camera.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camera.so \
